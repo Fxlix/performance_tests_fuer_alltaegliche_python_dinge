@@ -1,6 +1,35 @@
-Performance Testskripte
 
-Diese Sammlung von Python-Skripten dient dazu, die Performance verschiedener Operationen wie das Zusammenführen von Wörterbüchern, Iterationen über Listen und Wörterbücher, das Hinzufügen und Entfernen von Elementen aus Listen und das Zusammenführen von Strings zu testen und zu vergleichen.
+Performance Tests für Alltägliche Python-Dinge
+
+
+Dieses Repository bietet eine Sammlung von Skripten zum Testen und Vergleichen der Performance verschiedener alltäglicher Python-Operationen. 
+
+Struktur
+
+    /source/performance_tests/:
+        Enthält alle Performance-Testskripte.
+    /documentation/chat_history/:
+        Archiviert relevante Diskussionen und Entwicklungsdialoge.
+    /education_materials/:
+        Beinhaltet Unterweisungsmaterialien, strukturiert nach Themen/Module
+
+performance_tests_fuer_alltaegliche_python_dinge/
+│
+├── /source/
+│   └── /performance_tests/
+│       ├── dictionaries_merge_perf_test.py
+│       ├── iterate_over_dictionary_keys_or_lists.py
+│       ├── remove_elements_from_list.py
+│       ├── strings_concatenieren.py
+│       └── add_elements_to_list.py
+│
+├── /documentation/
+│   └── /chat_history/
+│
+└── /education_materials/
+    └─── /modul_1/
+
+
 Skripte und ihre Zwecke
 
     Dictionaries Merge Performance Test (dictionaries_merge_perf_test.py)
